@@ -387,10 +387,4 @@ frame = pd.DataFrame(d, index=names)
 frame.to_csv('original_table.csv')
 
 print('Data Frame exported')
-#select link to stock main page and get the current share price: http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/summary/company-summary/***fourWayKey***.html
 
-#link for fundamentals: http://www.londonstockexchange.com/exchange/prices/stocks/summary/fundamentals.html?fourWayKey=****
-
-
-
-#select links to stock fundamentals webpage page: soup.select('a[title="View detailed prices page"]')
